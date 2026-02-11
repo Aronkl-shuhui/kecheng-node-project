@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>客户成功智能助手</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header class="header">
+            <h1>客户成功智能助手</h1>
+            <p>基于豆包智能体的语义理解，为您提供高效的客户支持</p>
+        </header>
+
+        <!-- 主要内容区 -->
+        <main class="main-content">
+            <!-- 对话区域 -->
+            <div class="chat-container">
+                <div id="chat-messages" class="chat-messages">
+                    <div class="message bot-message">
+                        <div class="message-content">
+                            <p>您好！我是您的客户成功智能助手。有什么可以帮助您的吗？</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 输入区域 -->
+                <div class="chat-input-area">
+                    <input type="text" id="user-input" class="user-input" placeholder="请输入您的问题...">
+                    <button id="send-btn" class="send-btn">发送</button>
+                </div>
+            </div>
+
+            <!-- 功能卡片 -->
+            <div class="features">
+                <div class="feature-card">
+                    <h3>实时解答</h3>
+                    <p>智能理解您的问题，提供即时响应</p>
+                </div>
+                <div class="feature-card">
+                    <h3>问题分类</h3>
+                    <p>自动识别问题类型，提供精准解决方案</p>
+                </div>
+                <div class="feature-card">
+                    <h3>历史记录</h3>
+                    <p>保存对话历史，方便随时查阅</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <p>© 2026 客户成功智能助手 | 基于豆包智能体API</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
